@@ -98,7 +98,7 @@ h1{
 .rows{
 	display: flex;
 	justify-content: space-between;
-    width: 100%
+        width: 100%
 }
 .cols{
 	position: relative;
@@ -124,7 +124,7 @@ h1{
 	position: relative;
 	width: 100%;
 	justify-content: center;
-	background:url('donate/photo4.jpg');
+	background:url('photo4.jpg');
 	background-size: cover;
 	min-height: 100vh;
     align-items: center;
