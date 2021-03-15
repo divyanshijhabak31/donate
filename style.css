@@ -1,0 +1,171 @@
+/*styling about.html file*/
+.row{
+	position: relative;
+	display: flex;
+	width:100%;
+	justify-content: space-between;
+}
+.col{
+ 	position: relative;
+ 	width: 100%;
+}
+.row .col p{
+	color:black;
+	position: relative;
+	width:100%;
+	min-height: 300px;
+	font-family:poppins;
+	font-size:23px;
+    font-weight: bold;
+    margin-left: 50px;
+}
+.row .col .imgbx img{
+	position: absolute;
+	top:0;
+	left: 0;
+	width:70%;
+	height: 350px;
+	object-fit:cover;
+	margin-left:70px;
+	margin-top: 150px;
+}
+h2{
+	color:purple;
+	font-weight: bold;
+	font-size: 60px;
+	font-family:Times new roman;
+	text-align: center;
+	justify-content: center;
+	margin-left:80%;
+	text-decoration: underline;
+}
+/*styling list.html file*/
+h1{
+	color:purple;
+	font-weight: bold;
+	font-size:50px;
+	font-family:Times new roman;
+	text-align: center;
+	text-decoration:underline;
+	justify-content: center;
+	margin-left: 50px;
+}
+.menu .content{
+	display: flex;
+	justify-content: center;
+	flex-direction: row-reverse;
+	flex-wrap: wrap;
+	margin-top:-50px;
+}
+.menu .content .box{
+	width:400px;
+	margin:20px;
+    border: 5px solid #DDA0DD;
+}
+.menu .content .box .imgbx{
+	position: relative;
+	height:200px;
+	width:100%;
+}
+.menu .content .box .imgbx img{
+	position: absolute;
+	top: 0;
+	left:0;
+	width:100%;
+	height: 100%;
+	object-fit: cover;
+}
+.row .col .donate p{
+	margin-left: 70px;
+	font-size: 35px;
+	font-weight: bold;
+	margin-top: 40px;
+	color:#C71585;
+	animation: textanimation 3s forwards;
+	font-family: Times New Roman;
+}
+@keyframes textanimation{
+	0%{
+		transform: translateX(40rem) rotateX(-90deg);
+
+	}
+	100%{
+		transform: translateX(0) rotateX(0);
+	}
+}
+
+/*styling index.html file*/
+.rows{
+	display: flex;
+	justify-content: space-between;
+    width: 100%
+}
+.cols{
+	position: relative;
+}
+.heading .rows .cols p{
+    color:purple;
+	font-weight: bold;
+	font-size:25px;
+	font-family:Times new roman;
+	text-align: left;
+	margin-left: 25px;
+}
+.heading .rows .cols a{
+	color:purple;
+	font-weight: bold;
+	font-size:20px;
+	font-family:Times new roman;
+	text-align:right;
+	margin-right: 40px;
+}
+.home{
+	text-align: center;
+	position: relative;
+	width: 100%;
+	justify-content: center;
+	background:url('donate/photo4.jpg');
+	background-size: cover;
+	min-height: 100vh;
+    align-items: center;
+    margin-top:-20px;
+    display: flex;
+}
+.home .banner h3{
+	font-family:Times New Roman;
+	font-weight: bold;
+	font-size: 50px;
+	text-align:center;
+	color:#6495ED;
+	margin-left: 70px;
+	animation: movebar 2s ease-in-out;
+}
+@keyframes movebar{
+	0%{
+		transform: translateY(-45rem);
+		color:#B478ED;
+	}
+	100%{
+        transform: translateY(-90deg);
+    }
+}
+.home .banner p{
+    font-size: 35px;
+    font-weight: bold;
+    margin-top: -30px;
+    color:black;
+}
+.home .banner .btn{
+	font-size: 25px;
+	font-weight: bold;
+	font-family: Times New Roman;
+	color:#4169E1;
+	cursor: pointer;
+	background-color: #DDA0DD;
+	padding:8px;
+	margin-top: -15px;
+	border:2px solid black;
+}
+.btn:hover{
+	letter-spacing: 2px;
+}
